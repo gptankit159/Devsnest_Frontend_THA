@@ -1,0 +1,23 @@
+body{
+    background-color: aliceblue;
+    font-size: x-large;
+}
+
+.main{
+    max-width: 600px;
+    margin: auto;
+}
+
+.msgs{
+    max-width: fit-content;
+    min-width: 80px;
+    border: 2px solid black;
+    background-color: burlywood;
+    margin: 4px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.msgs:hover{
+    background-color: cornsilk;
+}
