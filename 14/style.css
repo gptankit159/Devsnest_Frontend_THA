@@ -1,0 +1,35 @@
+
+.container{
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+.touch , .click{
+    position: absolute;
+    width: fit-content;
+    margin: auto;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 15px;
+    user-select: none;
+    
+}
+.click{
+    background-color: mediumturquoise;
+    top: 45vh;
+    left: 47vw;
+}
+.click:hover{
+    background-color: orchid;
+}
+
+.touch{
+    background-color: navajowhite;
+    top: 35vh;
+    left: calc(47vw - 18px) ;
+}
