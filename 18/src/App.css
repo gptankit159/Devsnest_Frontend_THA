@@ -1,0 +1,42 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.board{
+  background-color: black;
+  width: 250px;
+  height: 250px;
+  padding: 0;
+}
+.iboard{
+  border: 1px solid white;
+  width: 210px;
+  height: 210px;
+  margin: 20px;
+}
+.tiles{
+  height: 12.5%;
+  width: 100%;
+}
+.tilesb{
+  height: 12.5%;
+  width: 100%;
+}
+
+.black{
+  display: inline-block;
+  background-color: black;
+  width: 12.5%;
+  height: 100%;
+}
+
+.white{
+  display: inline-block;
+  background-color: white;
+  width: 12.5%;
+  height: 100%;
+}
