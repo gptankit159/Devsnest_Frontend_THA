@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  margin-top: 50px;
+  width: 100wv;
+  display: flex;
+  justify-content: center;
+}
+.Todoapp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Todoapp button{
+  margin-top: 5px;
+  width: 50px;
+  border-radius: 10px 0;
+}
+.Todoapp button:hover{
+  background-color: rgb(69, 216, 167);
+  transform: scale(1.2);
+}
+
+.Todo{
+  border: 2px solid black;
+  display: flex;
+  padding: 5px;
+  margin: 8px;
+  justify-content: space-between;
+  background-color: yellow;
+  box-shadow: 2px 2px 8px ;
+  min-height: 50px;
+  border-radius: 5px;
+}
+.Todo p{
+  max-width: 280px;
+  word-wrap: break-word;
+  font-size:1.2rem;
+}
+.Todo button{
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+  border-radius: 50%;
+  color: black;
+  background-color: red;
+}
+.Todo button:hover{
+  color: rgb(174, 232, 250);
+  background-color: rgb(145, 28, 28);
+  transform: scale(1.2);
+}
+.todolist{
+  margin-top: 45px;
+  width: 400px;
+  padding: 17px;
+  height: 450px;
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  overflow-y: visible;
+  background-color: rgb(109, 77, 226);
+  box-shadow: 2px 2px 8px ;
+}
+input{
+  width: 250px;
+  box-shadow: 2px 2px 8px ;
+  word-wrap: break-word;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
