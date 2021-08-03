@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    width: 70vw;
+    margin: auto;
+}
+h1{    
+    text-align: center;
+    width: 100%;
+    
+}
+.main{
+    width: 80%;
+    margin: auto;
+}
+.cont h2>p{
+    display: inline; 
+    padding: 4px 20px;
+    margin: 12px;
+}
+.cont h2{
+    text-align: center;
+}
+.cont>p{
+    margin-bottom: 10px;
+    background-color: rgb(18, 62, 112);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.cont{
+    border: 2px solid red;
+    background-color: rgb(84, 84, 238);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.api{
+    margin-top: 20px;
+}
