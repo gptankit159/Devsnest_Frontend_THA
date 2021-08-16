@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+button{
+  margin: 20px;
+}
+
+nav{
+  width: 600px;
+  margin:40px auto;
+}
+ul {
+  display:flex ;
+  justify-content: space-around;
+  
+}
+.link{
+  padding: 4px 10px;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+.link:hover{
+  background-color: grey;
+}
