@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+body{
+  background-color: #2c2c2c;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App *{
+  margin: 10px;
+}
+
+.todo{
+  display: flex;
+}
+
+.content{
+  border: 2px solid black;
+  width: 50%;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  border-radius: 8px;
+}
+
+.todo{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+}
+button{
+  color: grey;
+  border-radius: 5px;
+}
+.buttons{
+  float: inline-end;
+
+}
+.buttons *{
+  padding: 5px;
+}
+input{
+  padding: 5px;
+}
